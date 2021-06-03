@@ -1,0 +1,41 @@
+body {
+  background-image: url("record.png");
+  background-repeat: repeat;
+  margin: 0;
+}
+
+.header {
+  background: linear-gradient(to right, #e53935, #e35d5b);
+  color: #fff;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+.shop {
+  font-size: 4em;
+}
+
+.quote {
+  background-color: lightgray;
+  padding: 1em;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 1.2em;
+}
+
+.image {
+    float: left;
+    width:  80%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+}
