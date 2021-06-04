@@ -4,6 +4,7 @@ body {
   margin: 0;
 }
 
+/* Using CSS style classes to do styling  */
 .header {
   background: linear-gradient(to right, #e53935, #e35d5b);
   color: #fff;
@@ -17,8 +18,10 @@ body {
   font-size: 4em;
 }
 
+/* Using class of "quote" to style <main> margin and padding.  */
 .quote {
   background-color: lightgray;
+  margin: 0;
   padding: 1em;
   text-align: center;
   font-family: helvetica;
